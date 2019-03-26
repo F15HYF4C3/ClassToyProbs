@@ -99,7 +99,56 @@ const mth = (number, operation) => {
 //Ex TOYPROB CallBacks
 
 //Instructor Examp:
+function abc(num, operator){
+    return operator ? operator(num) : num;
+}
 
+
+function zero(o) {
+    return abc(0, o)
+}
+function one(o) {
+    return abc(1, o)
+}
+
+function two(o) {
+    return abc(2, o)
+}
+
+function three(o) {
+    return abc(3, o)
+}
+
+function four(o) {
+    return abc(4, o)
+}
+
+function five(o) {
+    return abc(5, o)
+}
+
+function six(o) {
+    return abc(6, o)
+}
+
+function seven(o) {
+    return abc(7, o)
+}
+
+function eight(o) {return abc(8, o)}
+
+function nine(o) {
+    return abc(9, o)
+}
+
+function plus(num1) {
+    return function (num2){
+        return num1 + num2
+    }
+}
+function minus(num1) {return function (num2){return num2 - num1}}
+function times(num1) {return function (num2){return num1 * num2}}
+function dividedBy(num1) {return function (num2){return Math.floor(num2 / num1)}}
 
 
 
