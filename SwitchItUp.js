@@ -96,7 +96,19 @@ const mth = (number, operation) => {
        }
    }
 
-//Ex CallBack
+//Ex TOYPROB CallBacks
+
+//Instructor Examp:
+
+
+
+
+
+
+
+
+
+//Student Examps
 function zero(callback) {
     return (callback !== undefined) ?
         callback(0) : 0;
